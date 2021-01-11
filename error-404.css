@@ -1,0 +1,40 @@
+body {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: black;
+    color: white;
+  }
+div {
+  border-radius: 25px;
+  border: 2px solid #73AD21;
+  padding: 20px; 
+  width: 600px;
+  height: 475px;
+}
+button {
+  background-color: #73AD21;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+.button1 {
+  background-color: black; 
+  color: white; 
+  border: 2px solid #73AD21;
+}
+
+.button1:hover {
+  background-color: #73AD21;
+  color: white;
+}
